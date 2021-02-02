@@ -199,10 +199,10 @@ class ArtistForm(Form):
         'phone'
     )
     image_link = StringField(
-        'image_link', validators=[URL()]
+        'image_link'
     )
     website = StringField(
-        'website', validators=[URL()]
+        'website'
     )
     seeking_venue = SelectField(
         'seeking_venue', validators=[DataRequired()],
